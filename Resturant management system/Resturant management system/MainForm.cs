@@ -100,12 +100,12 @@ namespace Resturant_management_system
         #region //Kitchen Sub Buttons (your code goes here)//
         private void btn_KitchenSub_Menu_Click(object sender, EventArgs e)
         {
-            openChildForm(new MenuOptions());
+            openChildForm(new Kitchen_MenuOptions());
         }
 
         private void btn_KitchenSub_Orders_Click(object sender, EventArgs e)
         {
-            openChildForm(new Orders());
+            openChildForm(new Kitchen_Orders());
         }
 
         private void btn_KitchenSub_Reports_Click(object sender, EventArgs e)
