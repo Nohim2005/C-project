@@ -63,6 +63,16 @@ namespace Resturant_management_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _378_3788237_the_gallery_for_spoon_and_fork_png_silhouette_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("378-3788237_the-gallery-for-spoon-and-fork-png-silhouette-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap item_removebg_preview___Copy {
             get {
                 object obj = ResourceManager.GetObject("item-removebg-preview - Copy", resourceCulture);
@@ -76,6 +86,26 @@ namespace Resturant_management_system.Properties {
         internal static System.Drawing.Bitmap kitchen_removebg {
             get {
                 object obj = ResourceManager.GetObject("kitchen-removebg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R {
+            get {
+                object obj = ResourceManager.GetObject("R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R1 {
+            get {
+                object obj = ResourceManager.GetObject("R1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +136,46 @@ namespace Resturant_management_system.Properties {
         internal static System.Drawing.Bitmap table_2_removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("table_2-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Table_plate_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Table_plate-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Table_plate_removebg_preview_real {
+            get {
+                object obj = ResourceManager.GetObject("Table_plate-removebg-preview real", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Table_plate_removebg_preview_real1 {
+            get {
+                object obj = ResourceManager.GetObject("Table_plate-removebg-preview real1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Table_plate_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Table_plate-removebg-preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
