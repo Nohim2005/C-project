@@ -1,0 +1,10 @@
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\bin\Debug\Resturant management system.exe.config
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\bin\Debug\Resturant management system.exe
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\bin\Debug\Resturant management system.pdb
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.csproj.AssemblyReference.cache
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Properties.Resources.resources
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.csproj.GenerateResource.cache
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.csproj.CoreCompileInputs.cache
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.exe
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.pdb
+C:\Users\GameRiot64\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Main_Form.resources
