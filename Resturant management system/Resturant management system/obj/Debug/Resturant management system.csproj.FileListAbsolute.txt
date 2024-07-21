@@ -18,5 +18,14 @@ C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Restura
 C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.csproj.CoreCompileInputs.cache
 C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.exe
 C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant management system.pdb
-C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.MenuOptions.resources
-C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Orders.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Kitchen_MenuOptions.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Kitchen_Orders.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\bin\Debug\Resturant Management DB.mdf
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\bin\Debug\Resturant Management DB_log.ldf
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Employee_Profiles.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Login.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Shift_Scheduling_Tasks.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Product_Inventory.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Product_Supplier.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Table_Cleaning.resources
+C:\Users\Chani\OneDrive - NSBM\Visual studio\Resturant management system\Resturant management system\obj\Debug\Resturant_management_system.Table_Reservations.resources

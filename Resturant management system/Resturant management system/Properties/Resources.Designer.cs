@@ -93,6 +93,26 @@ namespace Resturant_management_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Login_icon {
+            get {
+                object obj = ResourceManager.GetObject("Login icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login_icon_small {
+            get {
+                object obj = ResourceManager.GetObject("Login_icon_small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap R {
             get {
                 object obj = ResourceManager.GetObject("R", resourceCulture);
@@ -106,6 +126,16 @@ namespace Resturant_management_system.Properties {
         internal static System.Drawing.Bitmap R1 {
             get {
                 object obj = ResourceManager.GetObject("R1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R2 {
+            get {
+                object obj = ResourceManager.GetObject("R2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +246,26 @@ namespace Resturant_management_system.Properties {
         internal static System.Drawing.Bitmap WhatsApp_Image_2024_07_19_at_11_25_43_AM_removebg_preview__3_ {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp_Image_2024-07-19_at_11.25.43_AM-removebg-preview (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2024_07_20_at_4_11_29_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2024-07-20 at 4.11.29 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2024_07_20_at_4_15_02_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2024-07-20 at 4.15.02 PM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

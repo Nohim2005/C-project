@@ -30,7 +30,7 @@
         {
             this.panel_Nav = new System.Windows.Forms.Panel();
             this.panel_Login = new System.Windows.Forms.Panel();
-            this.PB_Login = new System.Windows.Forms.PictureBox();
+            this.btn_login = new System.Windows.Forms.Button();
             this.panel_TableSub = new System.Windows.Forms.Panel();
             this.btn_TableSub_Cleaning = new System.Windows.Forms.Button();
             this.btn_TableSub_Reservations = new System.Windows.Forms.Button();
@@ -41,7 +41,6 @@
             this.btn_product = new System.Windows.Forms.Button();
             this.panel_StaffSub = new System.Windows.Forms.Panel();
             this.btn_StaffSub_Schedule = new System.Windows.Forms.Button();
-            this.btn_StaffSub_Tasks = new System.Windows.Forms.Button();
             this.btn_StaffSub_EmployeeProfile = new System.Windows.Forms.Button();
             this.btn_Staff = new System.Windows.Forms.Button();
             this.panel_KitchenSub = new System.Windows.Forms.Panel();
@@ -52,10 +51,9 @@
             this.panel_logo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_ChildSpawn = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PB_Index_logo = new System.Windows.Forms.PictureBox();
             this.panel_Nav.SuspendLayout();
             this.panel_Login.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Login)).BeginInit();
             this.panel_TableSub.SuspendLayout();
             this.panel_ProductSub.SuspendLayout();
             this.panel_StaffSub.SuspendLayout();
@@ -63,7 +61,7 @@
             this.panel_logo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_ChildSpawn.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Index_logo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_Nav
@@ -89,24 +87,27 @@
             // 
             // panel_Login
             // 
-            this.panel_Login.Controls.Add(this.PB_Login);
+            this.panel_Login.Controls.Add(this.btn_login);
             this.panel_Login.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_Login.Location = new System.Drawing.Point(0, 935);
+            this.panel_Login.Location = new System.Drawing.Point(0, 885);
             this.panel_Login.Name = "panel_Login";
-            this.panel_Login.Size = new System.Drawing.Size(285, 84);
+            this.panel_Login.Size = new System.Drawing.Size(285, 68);
             this.panel_Login.TabIndex = 12;
             // 
-            // PB_Login
+            // btn_login
             // 
-            this.PB_Login.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PB_Login.Image = global::Resturant_management_system.Properties.Resources.R1;
-            this.PB_Login.Location = new System.Drawing.Point(0, 0);
-            this.PB_Login.Name = "PB_Login";
-            this.PB_Login.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-            this.PB_Login.Size = new System.Drawing.Size(100, 84);
-            this.PB_Login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PB_Login.TabIndex = 0;
-            this.PB_Login.TabStop = false;
+            this.btn_login.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_login.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_login.Image = global::Resturant_management_system.Properties.Resources.Login_icon_small;
+            this.btn_login.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_login.Location = new System.Drawing.Point(0, 0);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(285, 68);
+            this.btn_login.TabIndex = 1;
+            this.btn_login.Text = "Login";
+            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // panel_TableSub
             // 
@@ -114,7 +115,7 @@
             this.panel_TableSub.Controls.Add(this.btn_TableSub_Cleaning);
             this.panel_TableSub.Controls.Add(this.btn_TableSub_Reservations);
             this.panel_TableSub.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_TableSub.Location = new System.Drawing.Point(0, 835);
+            this.panel_TableSub.Location = new System.Drawing.Point(0, 785);
             this.panel_TableSub.Name = "panel_TableSub";
             this.panel_TableSub.Size = new System.Drawing.Size(285, 100);
             this.panel_TableSub.TabIndex = 11;
@@ -169,7 +170,7 @@
             this.btn_Table.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_Table.Image = global::Resturant_management_system.Properties.Resources.Table_plate_removebg_preview_real1;
             this.btn_Table.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Table.Location = new System.Drawing.Point(0, 760);
+            this.btn_Table.Location = new System.Drawing.Point(0, 710);
             this.btn_Table.Name = "btn_Table";
             this.btn_Table.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.btn_Table.Size = new System.Drawing.Size(285, 75);
@@ -186,7 +187,7 @@
             this.panel_ProductSub.Controls.Add(this.btn_ProductSub_Suppliers);
             this.panel_ProductSub.Controls.Add(this.btn_ProductSub_Inventory);
             this.panel_ProductSub.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_ProductSub.Location = new System.Drawing.Point(0, 660);
+            this.panel_ProductSub.Location = new System.Drawing.Point(0, 610);
             this.panel_ProductSub.Name = "panel_ProductSub";
             this.panel_ProductSub.Size = new System.Drawing.Size(285, 100);
             this.panel_ProductSub.TabIndex = 9;
@@ -241,7 +242,7 @@
             this.btn_product.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_product.Image = global::Resturant_management_system.Properties.Resources.item_removebg_preview___Copy;
             this.btn_product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_product.Location = new System.Drawing.Point(0, 585);
+            this.btn_product.Location = new System.Drawing.Point(0, 535);
             this.btn_product.Name = "btn_product";
             this.btn_product.Size = new System.Drawing.Size(285, 75);
             this.btn_product.TabIndex = 8;
@@ -255,12 +256,11 @@
             // 
             this.panel_StaffSub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(58)))), ((int)(((byte)(105)))));
             this.panel_StaffSub.Controls.Add(this.btn_StaffSub_Schedule);
-            this.panel_StaffSub.Controls.Add(this.btn_StaffSub_Tasks);
             this.panel_StaffSub.Controls.Add(this.btn_StaffSub_EmployeeProfile);
             this.panel_StaffSub.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_StaffSub.Location = new System.Drawing.Point(0, 435);
             this.panel_StaffSub.Name = "panel_StaffSub";
-            this.panel_StaffSub.Size = new System.Drawing.Size(285, 150);
+            this.panel_StaffSub.Size = new System.Drawing.Size(285, 100);
             this.panel_StaffSub.TabIndex = 7;
             this.panel_StaffSub.Visible = false;
             // 
@@ -273,36 +273,16 @@
             this.btn_StaffSub_Schedule.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_StaffSub_Schedule.Image = global::Resturant_management_system.Properties.Resources._378_3788237_the_gallery_for_spoon_and_fork_png_silhouette_removebg_preview;
             this.btn_StaffSub_Schedule.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_StaffSub_Schedule.Location = new System.Drawing.Point(0, 100);
+            this.btn_StaffSub_Schedule.Location = new System.Drawing.Point(0, 50);
             this.btn_StaffSub_Schedule.Name = "btn_StaffSub_Schedule";
             this.btn_StaffSub_Schedule.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.btn_StaffSub_Schedule.Size = new System.Drawing.Size(285, 50);
             this.btn_StaffSub_Schedule.TabIndex = 5;
-            this.btn_StaffSub_Schedule.Text = " Shift Scheduling";
+            this.btn_StaffSub_Schedule.Text = " Shift Scheduling / Tasks ";
             this.btn_StaffSub_Schedule.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_StaffSub_Schedule.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_StaffSub_Schedule.UseVisualStyleBackColor = true;
             this.btn_StaffSub_Schedule.Click += new System.EventHandler(this.btn_StaffSub_Schedule_Click);
-            // 
-            // btn_StaffSub_Tasks
-            // 
-            this.btn_StaffSub_Tasks.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_StaffSub_Tasks.FlatAppearance.BorderSize = 0;
-            this.btn_StaffSub_Tasks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_StaffSub_Tasks.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_StaffSub_Tasks.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_StaffSub_Tasks.Image = global::Resturant_management_system.Properties.Resources._378_3788237_the_gallery_for_spoon_and_fork_png_silhouette_removebg_preview;
-            this.btn_StaffSub_Tasks.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_StaffSub_Tasks.Location = new System.Drawing.Point(0, 50);
-            this.btn_StaffSub_Tasks.Name = "btn_StaffSub_Tasks";
-            this.btn_StaffSub_Tasks.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btn_StaffSub_Tasks.Size = new System.Drawing.Size(285, 50);
-            this.btn_StaffSub_Tasks.TabIndex = 4;
-            this.btn_StaffSub_Tasks.Text = " Task Assignment";
-            this.btn_StaffSub_Tasks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_StaffSub_Tasks.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_StaffSub_Tasks.UseVisualStyleBackColor = true;
-            this.btn_StaffSub_Tasks.Click += new System.EventHandler(this.btn_StaffSub_Tasks_Click);
             // 
             // btn_StaffSub_EmployeeProfile
             // 
@@ -459,25 +439,23 @@
             // panel_ChildSpawn
             // 
             this.panel_ChildSpawn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(32)))), ((int)(((byte)(84)))));
-            this.panel_ChildSpawn.Controls.Add(this.pictureBox2);
+            this.panel_ChildSpawn.Controls.Add(this.PB_Index_logo);
             this.panel_ChildSpawn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_ChildSpawn.Location = new System.Drawing.Point(302, 0);
             this.panel_ChildSpawn.Name = "panel_ChildSpawn";
             this.panel_ChildSpawn.Size = new System.Drawing.Size(1291, 695);
             this.panel_ChildSpawn.TabIndex = 2;
             // 
-            // pictureBox2
+            // PB_Index_logo
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::Resturant_management_system.Properties.Resources.WhatsApp_Image_2024_07_19_at_11_25_43_AM_removebg_preview__3_;
-            this.pictureBox2.Location = new System.Drawing.Point(350, 135);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(641, 439);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.PB_Index_logo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PB_Index_logo.Image = global::Resturant_management_system.Properties.Resources.WhatsApp_Image_2024_07_20_at_4_15_02_PM;
+            this.PB_Index_logo.Location = new System.Drawing.Point(0, 0);
+            this.PB_Index_logo.Name = "PB_Index_logo";
+            this.PB_Index_logo.Size = new System.Drawing.Size(1291, 695);
+            this.PB_Index_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PB_Index_logo.TabIndex = 0;
+            this.PB_Index_logo.TabStop = false;
             // 
             // Main_Form
             // 
@@ -491,7 +469,6 @@
             this.Text = "Main_Form";
             this.panel_Nav.ResumeLayout(false);
             this.panel_Login.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Login)).EndInit();
             this.panel_TableSub.ResumeLayout(false);
             this.panel_ProductSub.ResumeLayout(false);
             this.panel_StaffSub.ResumeLayout(false);
@@ -499,7 +476,7 @@
             this.panel_logo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel_ChildSpawn.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Index_logo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -517,7 +494,6 @@
         private System.Windows.Forms.Button btn_Staff;
         private System.Windows.Forms.Panel panel_StaffSub;
         private System.Windows.Forms.Button btn_StaffSub_Schedule;
-        private System.Windows.Forms.Button btn_StaffSub_Tasks;
         private System.Windows.Forms.Button btn_StaffSub_EmployeeProfile;
         private System.Windows.Forms.Button btn_product;
         private System.Windows.Forms.Panel panel_ProductSub;
@@ -528,8 +504,8 @@
         private System.Windows.Forms.Button btn_TableSub_Cleaning;
         private System.Windows.Forms.Button btn_TableSub_Reservations;
         private System.Windows.Forms.Panel panel_Login;
-        private System.Windows.Forms.PictureBox PB_Login;
         private System.Windows.Forms.Panel panel_ChildSpawn;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_login;
+        private System.Windows.Forms.PictureBox PB_Index_logo;
     }
 }
